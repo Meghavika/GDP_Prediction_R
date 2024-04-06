@@ -2,41 +2,49 @@
 
 ## Overview
 
-This project aims to analyze and visualize GDP (Gross Domestic Product) prediction data spanning from 1960 to 2030. Various analyses, including data manipulation, summary statistics calculation, regression modeling, clustering techniques, and visualization, are performed to gain insights into GDP trends and distributions over time.
+This project focuses on analyzing and predicting Gross Domestic Product (GDP) trends using data spanning from 1960 to 2030. The analysis involves preprocessing the data, performing exploratory data analysis (EDA), building machine learning models for GDP prediction, and visualizing the results.
 
 ## Project Structure
 
-The project directory contains the following files:
+The project directory includes the following files:
 
-- **GDP Prediction Analysis.R**: R script containing code for data preprocessing, analysis, and visualization.
+- **GDP_Prediction_Analysis.R**: R script containing code for data preprocessing, exploratory data analysis, machine learning modeling, and visualization.
 - **Prediction_GDP1960_2030.csv**: CSV file containing GDP prediction data from 1960 to 2030.
-- **README.md**: Markdown file providing information about the project.
+- **README.md**: Markdown file providing an overview of the project and instructions for running the analysis.
 
 ## Dependencies
 
-The following R libraries are used in this project:
+To run the analysis, ensure you have the following R libraries installed:
 
 - dplyr
 - ggplot2
 - tidyr
 - caret
+- randomForest
+- zoo
+- gsubfn
+- forecast
+- kableExtra
 - cluster
 - gridExtra
+- gridBase
+- shiny
+- shinythemes
+- leaflet
+- plotly
+- shinyalert
+- readr
 
-Make sure to have these libraries installed before running the R script.
+You can install these packages using the `install.packages()` function in R.
 
 ## Running the Analysis
 
-1. Ensure R is installed on your system.
-2. Install the required R libraries using `install.packages()`.
-3. Download the project files.
-4. Open the R script `GDP Prediction Analysis.R` in RStudio or any other R environment.
-5. Run the script to perform data preprocessing, analysis, and visualization.
+Follow these steps to run the analysis:
 
-## File Descriptions
-
-- **GDP Prediction Analysis.R**: This script contains the code for preprocessing the GDP prediction data, performing various analyses (such as linear regression, clustering), and visualizing the results using ggplot2 and other R packages.
-- **Prediction_GDP1960_2030.csv**: This CSV file contains the GDP prediction data from 1960 to 2030, which is used as input for the analysis.
+1. Install R and R Studio on your system if you haven't already.
+2. Install the required R libraries listed above.
+3. Download the project files to your local machine.
+4. Run the scripts to preprocess the data, perform exploratory analysis, build machine learning models, and visualize the results.
 
 ## Output
 
@@ -44,11 +52,11 @@ The output of the analysis includes:
 
 - Summary statistics of GDP data.
 - Visualization of GDP distributions over the years.
-- Regression analysis to predict future GDP values.
+- Machine learning models for predicting future GDP values.
 - Clustering analysis to identify patterns in GDP data.
 - Various plots and charts depicting GDP trends and distributions.
 
-## Authors
+## Author
 
 - Meghavika Baidya
 
